@@ -1,0 +1,33 @@
+{
+  {
+    "Id": "7efcb7b5-0ec3-41cd-8c51-ee03fd47818b",
+    "Name": "CocaCola",
+    "Price": "20"
+  },
+  {
+    "Id": "c9de36cf-e5ce-4671-b982-7778a6975056",
+    "Name": "Aguazul",
+    "Price": "15"
+  },
+  {
+    "Id": "8cb5828f-62de-44be-974e-bcdacac5ea05",
+    "Name": "Ranchitas",
+    "Price": "8"
+  },
+  {
+    "Id": "7b5cc57b-1d83-4021-a6b5-5950ab6414bd",
+    "Name": "Semitas",
+    "Price": "30"
+  },
+  {
+    "Id": "82c86507-5740-43bf-b859-5c634a3c1fea",
+    "Name": "Alkas",
+    "Price": "2"
+  },
+  {
+    "Id": "9b9c3c6c-0354-47c4-a2af-a3c4215895b3",
+    "Name": "TajadasNaturales",
+    "Price": "15"
+  }
+
+}

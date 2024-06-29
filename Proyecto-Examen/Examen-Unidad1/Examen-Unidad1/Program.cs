@@ -1,0 +1,13 @@
+using Examen_Unidad1;
+
+var builder = WebApplication.CreateBuilder(args);
+
+var startup = new StarUp(builder.Configuration);
+
+startup.ConfigureServices(builder.Services);
+
+var app = builder.Build();
+
+startup.Configure(app, app.Environment);
+
+app.Run();
