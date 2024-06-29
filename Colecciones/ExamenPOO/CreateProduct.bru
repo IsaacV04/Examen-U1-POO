@@ -1,0 +1,19 @@
+meta {
+  name: CreateProduct
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{PATH}}/Productos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "Id": "7efcb7b5-0ec3-41cd-8c51-ee03fd47818a",
+    "Name": "Pepsi",
+    "Price": 20
+    
+}

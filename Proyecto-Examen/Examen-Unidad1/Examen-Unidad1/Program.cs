@@ -2,7 +2,7 @@ using Examen_Unidad1;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var startup = new StarUp(builder.Configuration);
+var startup = new Startup(builder.Configuration);
 
 startup.ConfigureServices(builder.Services);
 

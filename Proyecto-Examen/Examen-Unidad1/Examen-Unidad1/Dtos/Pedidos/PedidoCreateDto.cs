@@ -4,20 +4,19 @@ namespace Examen_Unidad1.Dtos.Pedidos
 {
     public class PedidoCreateDto
     {
-        [Display(Name = "ClienteId")]
-        [Required(ErrorMessage = "El {0} de la categoría es requerido.")]
+        [Required(ErrorMessage = "El ClienteId es requerido.")]
         public Guid ClienteId { get; set; }
 
-        [Display(Name = "Fecha")]
+        [Required(ErrorMessage = "La Fecha es requerida.")]
         public DateTime Fecha { get; set; }
 
-        [Display(Name = "Lista de Productos")]
+        [Required(ErrorMessage = "La Lista de Productos es requerida.")]
         public string ListaDeProductos { get; set; }
     }
 }
 
 
-    
 
-    
+
+
 

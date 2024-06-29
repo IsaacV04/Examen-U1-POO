@@ -12,7 +12,7 @@ namespace Examen_Unidad1.Services
 
         public ProductsService()
         {
-            _JSON_FILE = "SeedData/categories.json";
+            _JSON_FILE = "SeedData/Productos.json";
         }
 
         public async Task<List<ProductsDto>> GetProductsListAsync()
@@ -42,7 +42,7 @@ namespace Examen_Unidad1.Services
             {
                 Id = x.Id,
                 Name = x.Name,
-                Description = x.Description,
+                Price = x.Price,
             }).ToList();
 
             await WriteProductsToFileAsync(productos);

@@ -1,13 +1,14 @@
-﻿using Examen_Unidad1.Services;
+﻿using BlogUNAH.API.Services.Interfaces;
+using Examen_Unidad1.Services;
 using Examen_Unidad1.Services.Interfaces;
 
 namespace Examen_Unidad1
 {
-    public class StarUp
+    public class Startup
     {
         private IConfiguration Configuration { get; }
 
-        public StarUp (IConfiguration configuration) 
+        public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
@@ -18,6 +19,8 @@ namespace Examen_Unidad1
             services.AddSwaggerGen();
 
             services.AddTransient<IOrdersService, OrdersService>();
+            services.AddTransient<IProductsService, ProductsService>();
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
